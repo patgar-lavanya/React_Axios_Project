@@ -5,6 +5,7 @@ import './App.css'
 import Featch from './Featch'
 import axios from 'axios'
 
+
 function App() {
   const [myData, setMyData] = useState([])
   
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+    {/* <Table striped bordered hover> */}
     <Featch/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -36,7 +38,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
+      
     </>
+    
   )
 }
 
